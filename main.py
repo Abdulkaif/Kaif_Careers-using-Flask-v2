@@ -22,6 +22,11 @@ JOBS = [
     "job": "Frontend Engineer",
     "location": "Gurgaon",
   },
+  {
+    "job": "Basic Python",
+    "location": "Remote",
+    "salary": 5000,
+  },
 ]
 
 
