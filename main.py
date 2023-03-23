@@ -15,5 +15,5 @@ def index():
 def api():
   return jsonify(derive_jobs())
 
-
-app.run(host='0.0.0.0', port=81)
+if __name__ == '__main__':
+  app.run(host='0.0.0.0', port=81, debug=True)
